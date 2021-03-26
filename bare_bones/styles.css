@@ -1,0 +1,50 @@
+body{
+    color: blue;
+    background-color: aliceblue;
+}
+
+
+h1 {
+    color: pink;
+}
+
+.second-h1{
+    color: magenta;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-image{
+    width: 20%;
+}
+
+.main-h1{
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.description{
+    color:blueviolet;
+    font-family: "Roboto";
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    background-color: cornsilk;
+    padding: 30px;
+    margin : 30px;
+}
+
+@media (max-width: 480px){
+    .main-image{
+        width: 100%;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+}
